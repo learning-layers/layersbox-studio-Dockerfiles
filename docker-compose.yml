@@ -1,0 +1,7 @@
+layersbox-studio:
+    container_name: layersbox-studio
+    image: learninglayers/layersbox-studio
+    env_file:
+        - common.env
+    volumes:
+        - /dev/urandom:/dev/random
